@@ -27,7 +27,7 @@ namespace _2701
 
         public override string ToString()
         {
-            return $"Triangle: r : {_r} " + base.ToString();
+            return $"Circle: r : {_r} " + base.ToString();
         }
     }
 }

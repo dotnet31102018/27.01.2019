@@ -31,11 +31,36 @@ namespace _2701
             Console.WriteLine(t);
 
             Console.WriteLine(c);
-            
 
+            PrintCircleArea(c);
+
+            PrintTriangle(t);
+
+            PrintAreaOfShape(c);
+            PrintAreaOfShape(t);
+
+            TriangleRightAngle t3 = new TriangleRightAngle();
+            PrintTriangle(t3);
 
         }
 
+        static void PrintCircleArea(Circle c2)
+        {
+            c2.CalcArea();
+            Console.WriteLine( c2._area );
+        }
+
+        static void PrintTriangle(Triangle t2)
+        {
+            t2.CalcArea();
+            Console.WriteLine(t2._area);
+        }
+
+        static void PrintAreaOfShape(ShapeBase s2)
+        {
+            s2.CalcArea();
+            Console.WriteLine(s2._area);
+        }
 
     }
 }
