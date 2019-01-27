@@ -15,7 +15,22 @@ namespace _2701
             // abstract - not allowed!!
             //ShapeBase shape = new ShapeBase();
 
-            Triangle t = new Triangle();
+            Triangle t = new Triangle
+            {
+                _a = 4.4,
+                _b = 3.3,
+                _c = 3.7,
+                _h = 2.5
+            };
+
+            Circle c = new Circle
+            {
+                _r = 7.4
+            };
+
+            Console.WriteLine(t);
+
+            Console.WriteLine(c);
             
 
 

@@ -15,9 +15,21 @@ namespace _2701
 
         public double _a, _b, _c, _h;
 
+        public override void CalcArea()
+        {
+            _area = _c * _h / 2.0;
+        }
+
         public override void CalcHekef()
         {
             _hekef = _a + _b + _c;
+        }
+
+        public override string ToString()
+        {
+            CalcArea();
+            CalcHekef();
+            return $"Triangle: a : {_a} b : {_b} c : {_c} h : {_h} " + base.ToString();
         }
     }
 }
