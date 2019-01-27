@@ -27,8 +27,6 @@ namespace _2701
 
         public override string ToString()
         {
-            CalcArea();
-            CalcHekef();
             return $"Triangle: a : {_a} b : {_b} c : {_c} h : {_h} " + base.ToString();
         }
     }
