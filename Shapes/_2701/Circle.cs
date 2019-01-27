@@ -9,6 +9,10 @@ namespace _2701
     class Circle : ShapeBase
     {
 
+        // exist here
+        //public double area;
+        //public double hekef;
+
         public double _r;
 
         public override void CalcArea()
